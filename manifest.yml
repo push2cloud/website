@@ -1,0 +1,11 @@
+---
+applications:
+- name: push2cloud
+  memory: 64M
+  no-hostname: true
+  domain: push2.cloud
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  path: ./src
+
+  env:
+    FORCE_HTTPS: true

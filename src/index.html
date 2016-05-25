@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>push2cloud</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
+	<link rel="stylesheet" href="assets/styles/styles.css">
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78241673-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          <img src="assets/images/logo.svg" alt="logo">
+
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://github.com/push2cloud/push2cloud" target="_blank">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section-header">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <img id="top_logo" src="assets/images/logo2.svg" alt="logo">
+
+          <h1 class="slogan">deploy complex microservice applications <br />in style!</h1>
+
+          <a href="https://github.com/push2cloud/push2cloud" target="_blank">
+            <button type="button" class="btn btn-default btn-lg btn-github">
+              <img src="assets/images/github.svg" alt="GitHub">
+            </button>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-overview">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <h1>overview</h1>
+          <p class="first-paragraph">push2cloud is a framework that allows you to easily deploy complex cloud native microservice applications onto Cloud Foundry. If you’ve a complex microservice architecture, push2cloud is your framework to speed up your deployments significantely! push2cloud consists of multiple pluggable components that work together to give maximum customizability to the user and use-case.</p>
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="row">
+
+        <div class="col-sm-6">
+          <h3>application management and deployment toolkit</h3>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/configuration.svg" alt="configuration">
+            </div>
+            <div class="media-body">
+              <p>Sophisticated application configuration supporting dependencies and versioning</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/management.svg" alt="management">
+            </div>
+            <div class="media-body">
+              <p>Release- /Deployment management</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/target.svg" alt="target">
+            </div>
+            <div class="media-body">
+              <p>Target platform agnostic, supporting multiple environments</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/workflow.svg" alt="workflow">
+            </div>
+            <div class="media-body">
+              <p>Provides flexible, customizable workflow framework</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/plugin.svg" alt="plugin">
+            </div>
+            <div class="media-body">
+              <p>Extendable through plugin structure</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/pipeline.svg" alt="pipeline">
+            </div>
+            <div class="media-body">
+              <p>Easy to integrate in CI/CD pipelines</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="assets/images/open-source.svg" alt="open source">
+            </div>
+            <div class="media-body">
+              <p>Open source</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-6">
+          <img class="architecture-image" src="assets/images/architecture.svg" alt="Architecture">
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <h3>architecture</h3>
+          <p>The basic push2cloud architecture consists of manifests, the compiler to process them and various workflows to deploy.</p>
+          <p class="paragraph-bottom">A complete overview of the architecture can be found <a href="https://github.com/push2cloud/push2cloud/blob/master/docs/architecture.md" target="_blank">here</a>.</p>
+          <img class="process-image" src="assets/images/process.svg" alt="process">
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-getting-started">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <h1>getting started</h1>
+          <pre><code class="bash code-snippet"># get push2cloud
+git clone https://github.com/push2cloud/push2cloud.git
+cd push2cloud/example/deployer
+npm install
+
+# install the cli
+npm install -g push2cloud-cli
+
+# set your CF target (api, space, org)
+vi ../manifests/deployment.json
+
+# set your CF credentials
+export CF_USER=${YOUR_USER}
+export CF_PWD=${YOUR_PASSWORD}
+
+# compile
+p2c compile -e ../manifests/deployment.json
+
+# deploy
+p2c exec ./node_modules/push2cloud-cf-workflows/simple.js</code></pre>
+
+          <p>Longer and commented version available <a href="https://github.com/push2cloud/push2cloud/blob/master/guides/getting_started.md" target="blank">here</a>. Further guides available <a href="https://github.com/push2cloud/push2cloud/blob/master/guides/guide_list.md" target="_blank">here</a>.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-example">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <h1>example: bluegreen workflow</h1>
+          <p class="first-paragraph">This more <a href="https://github.com/push2cloud/cf-workflows/blob/master/blueGreen.js" target="_blank">advanced example</a> shows how to migrate applications without downtime using a <a href="http://martinfowler.com/bliki/BlueGreenDeployment.html" target="_blank">blue-green deployment</a>.</p>
+          <pre><code class="javascript code-snippet">const blueGreen = (deploymentConfig, api, log) =>
+waterfall(
+  [ init(deploymentConfig, api, log)
+  , map(packageApp, missing.apps)
+  , mapSeries(api.createServiceInstance, missing.services)
+  , map(api.createRoute, missing.routes)
+  , map(api.createApp, missing.apps)
+  , mapLimit(api.uploadApp, missing.apps)
+  , map(api.setEnv, missing.envVars)
+  , map(api.stageApp, missing.apps)
+  , map(api.bindService, missing.serviceBindings)
+  , map(api.startAppAndWaitForInstances, missing.apps)
+  , map(switchRoutes(api), combine('desired.routes', old.associatedRoutes, (r) => (r.unversionedName + r.hostname + r.domain)))
+  , map(api.stopApp, old.apps)
+  , map(api.unbindService, old.serviceBindings)
+  , map(api.deleteApp, old.apps)
+  ]
+);</code></pre>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-demo">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <h1>demo</h1>
+          <p class="first-paragraph">This quick demo shows you the initial deployent of the demo app and a blue-green deployment after a few changes.</p>
+
+          <!-- <div class="macbook">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-4CHDhGYhAc" frameborder="0" allowfullscreen></iframe>
+          </div> -->
+
+          <div class="macbook-new">
+            <iframe class="macbook-video" src="https://www.youtube.com/embed/-4CHDhGYhAc" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-partners">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <h6 class="partners-heading">push2cloud is backed by...</h6>
+
+          <div class="row">
+            
+            <div class="partners-logos">
+
+              <div class="dorma-kaba-container col-md-3 col-sm-6 col-xs-12 text-center">
+                <a href="http://www.dormakaba.com/" target="_blank">
+                  <img class="dorma-kaba-logo" src="assets/images/dorma-kaba.svg" alt="dorma+kaba">
+                </a>
+              </div>
+
+              <div class="school-container col-md-3 col-sm-6 col-xs-12 text-center">
+                <a href="https://www.zhaw.ch/en/engineering/" target="_blank">
+                  <img class="school-logo" src="assets/images/school.svg" alt="school of engineering">
+                </a>
+              </div>
+
+              <div class="icclab-container col-md-3 col-sm-6 col-xs-12 text-center">
+                <a href="https://twitter.com/icc_lab" target="_blank">
+                  <img class="icclab-logo" src="assets/images/icclab.svg" alt="icclab splab">
+                </a>
+              </div>
+
+              <div class="swisscom-container col-md-3 col-sm-6 col-xs-12 text-center">
+                <a href="http://developer.swisscom.com/" target="_blank">
+                  <img class="swisscom-logo" src="assets/images/swisscom.svg" alt="swisscom">
+                </a>
+              </div>
+
+            </div>  
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="section-footer">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <span class="twitter">
+            <a href="https://twitter.com/Push2_cloud" target="_blank">
+              <img class="twitter-logo" src="assets/images/twitter.svg" alt="twitter">
+              @Push2_cloud
+            </a>
+          </span>
+
+          <span class="copyright">Copyright © push2cloud, 2016</span>
+          <span class="disclaimer"><a href="disclaimer.html">Disclaimer</a></span>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

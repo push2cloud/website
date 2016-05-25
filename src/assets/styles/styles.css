@@ -1,0 +1,228 @@
+@font-face {
+	font-family: "Norwester";
+
+	src: url("../fonts/norwester.eot");
+	src: url("../fonts/norwester.woff") format("woff"), url("../fonts/norwester.woff") format("woff"), url("../fonts/norwester.ttf") format("truetype"), url("../fonts/norwester.svg") format("svg");
+}
+
+body {
+	margin-top: 50px;
+	color: #0b2538;
+}
+
+a {
+	color: #009eff;
+}
+
+.navbar-brand {
+	width: 200px;
+	position: relative;
+	top: -8px;
+}
+
+.navbar {
+	background-color: #fff;
+	border-bottom: none;
+	-webkit-box-shadow: 0 0 15px rgba(5, 44, 64, 0.3);
+	-moz-box-shadow: 0 0 15px rgba(5, 44, 64, 0.3);
+	box-shadow: 0 0 15px rgba(5, 44, 64, 0.3);
+}
+
+section {
+	padding: 100px 0 100px 0;
+}
+
+.section-header {
+	background-image: url("../images/bg.png");
+}
+
+#top_logo {
+	width: 200px;
+	padding-bottom: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Norwester;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+.first-paragraph {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.slogan {
+	color: #fff;
+	font-size: 4em;
+	padding-bottom: 50px;
+}
+
+.btn-github {
+	background-color: #12b0ff;
+	border: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn-github:hover {
+	background-color: #0b2538;
+}
+
+.btn-github img {
+	height: 30px ;
+}
+
+.section-overview {
+	background-color: #eee;
+	background-image: radial-gradient(#fff, #eee);
+}
+
+.media-left img {
+	width: 64px;
+	height:64px;
+	padding-bottom: 20px;
+}
+
+.media-left p {
+	text-align: left;
+}
+
+.architecture-image {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.paragraph-bottom{
+	margin-bottom: 50px;
+}
+
+.process-image {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.code-snippet {
+	background-color: transparent;
+}
+
+.section-getting-started p {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.section-example {
+	padding-top: 0;
+}
+
+.section-demo {
+	background-image: url("../images/bg2.png");
+	background-size: 100% 70%;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+.partners-heading {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.section-partners {
+	padding-top: 0;
+}
+
+.partners-logos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dorma-kaba-logo {
+	width: 208px;
+	height: 100px;
+	margin: auto;
+
+}
+
+.school-logo {
+	width: 190px;
+	height: 100px;
+	margin: auto;
+}
+
+.icclab-logo {
+	width:140px;
+	height: 100px;
+	margin: auto;
+	
+}
+
+.swisscom-logo {
+	width: 200px;
+	height: 100px;
+	margin: auto;
+
+}
+
+.section-footer {
+	background-color: #052c40;
+	color: #69808c;
+	padding: 20px 0;
+}
+
+.twitter-logo {
+	width: 35px;
+	padding-right: 5px;
+}
+
+.disclaimer {
+	padding-right: 30px;
+	float: right;
+}
+
+.copyright {
+	float: right;
+}
+
+.macbook-new {
+	position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+}
+
+.macbook-video {
+	box-sizing: border-box;
+	background: url(../images/macbook.png) center center no-repeat;
+  background-size: contain;
+  padding: 9% 11% 15% 11%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*@media (max-width: 600px) {
+  .macbook-video {
+  	background: transparent;
+  }
+}*/
