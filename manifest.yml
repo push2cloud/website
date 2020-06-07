@@ -5,7 +5,7 @@ applications:
   no-hostname: true
   domain: push2.cloud
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
-  path: ./src
+  path: ./docs
 
   env:
     FORCE_HTTPS: true
